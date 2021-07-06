@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.educationdemo.educationdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".eng_sec3_ch3"></activity>
+        <activity android:name=".eng_sec3_ch2" />
+        <activity android:name=".eng_sec3_ch1" />
+        <activity android:name=".eng_sec2_ch3" />
+        <activity android:name=".eng_sec2_ch2" />
+        <activity android:name=".eng_sec2_ch1" />
+        <activity android:name=".eng_sec1_ch3" />
+        <activity android:name=".eng_sec1_ch2" />
+        <activity android:name=".eng_sec1_ch1" />
+        <activity android:name=".eng_sec_three" />
+        <activity android:name=".eng_sec_two" />
+        <activity android:name=".eng_sec_one" />
+        <activity android:name=".san_part_one_chap5" />
+        <activity android:name=".san_part_one_chap4" />
+        <activity android:name=".san_part_one_chap3" />
+        <activity android:name=".san_part_one_chap2" />
+        <activity android:name=".san_part_one_chap1" />
+        <activity android:name=".chapter_list_english" />
+        <activity android:name=".chapter_list_sanskrit" />
+        <activity android:name=".phy_part_one_chap5" />
+        <activity android:name=".phy_part_one_chap4" />
+        <activity android:name=".phy_part_one_chap3" />
+        <activity android:name=".phy_part_one_chap2" />
+        <activity android:name=".phy_part_one_chap1" />
+        <activity android:name=".chapter_list_physics" />
+        <activity android:name=".math_part_one_chap5" />
+        <activity android:name=".math_part_one_chap4" />
+        <activity android:name=".math_part_one_chap3" />
+        <activity android:name=".math_part_one_chap2" />
+        <activity android:name=".math_part_one_chap1" />
+        <activity android:name=".chapter_list_math" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.activity_Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".class_11_12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Stream"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".art"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".comm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter_list_science"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bio_unit_one_chap1"
+            android:screenOrientation="fullUser" />
+        <activity
+            android:name=".bio_unit_one_chap2"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".bio_unit_one_chap3"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".bio_unit_one_chap4"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".chem_part_one_chap7" />
+        <activity android:name=".chem_part_one_chap6" />
+        <activity android:name=".chem_part_one_chap5" />
+        <activity android:name=".chem_part_one_chap4" />
+        <activity android:name=".chem_part_one_chap3" />
+        <activity android:name=".chem_part_one_chap2" />
+        <activity android:name=".chem_part_one_chap1" />
+        <activity android:name=".chapter_list_chemistry" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:theme="@style/Theme.AppCompat.Light"
+    android:background="@color/colorPrimary"
+    tools:context=".chapter_list_english">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:id="@+id/txt_unit"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/english_woven_words"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_unit_name"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/english_english_for_class_xi"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/u1_btn1_chap_one"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/eng_part1_short_stories_introduction"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/prev_next_round_btn" />
+        <Button
+            android:id="@+id/u1_btn2_chap_two"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/eng_part2_poetry_introduction"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/prev_next_round_btn"/>
+        <Button
+            android:id="@+id/u1_btn2_chap_three"
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/eng_part3_essays_introduction"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/prev_next_round_btn"/>
+
+        <Button
+            android:id="@+id/u1_btn2_prev"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/u1_btn_prev"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:background="@drawable/round"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
